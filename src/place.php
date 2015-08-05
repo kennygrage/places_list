@@ -29,9 +29,9 @@ class Place
 
     function getTimeStayed()
     {
-        
+        return $this->time_stayed;
     }
-
+    
     function save()
     {
         array_push($_SESSION['list_of_places'], $this);
